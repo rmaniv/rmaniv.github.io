@@ -326,14 +326,14 @@
     "href": "posts/natural-resource-production/index.html#crude-oil",
     "title": "India’s natural resource production - interim estimate",
     "section": "2 Crude oil",
-    "text": "2 Crude oil\nProduction value: Rs. 1.3 lakh crores (2019)\nProduction per day = ~700,000 barrels/day (source: Ministry of Petroleum & Natural Gas)\nAverage crude oil price in 2019 = US$64.3/barrel (source) [Note: the price at which our companies sell might be different from Brent crude, so this figure might not be accurate.]\nAverage exchange rate for US$ to INR in 2021: 1 US$ = INR 70.4 (source)\nProduction value = (700000 barrels / day)(365 days/year)(US\\(70/barrel)*(INR 70.4/US\\)) = ~INR 1.3 lakh crore"
+    "text": "2 Crude oil\nProduction value: Rs. 1.3 lakh crores (2019)\nProduction per day = ~700,000 barrels/day (source: Ministry of Petroleum & Natural Gas)\nAverage crude oil price in 2019 = US$64.3/barrel (source) [Note: the price at which our companies sell might be different from Brent crude, so this figure might not be accurate.]\nAverage exchange rate for US$ to INR in 2021: 1 US$ = INR 70.4 (source)\nProduction value = (700000 barrels / day)x(365 days/year)x(US\\(70/barrel)x(INR 70.4/US\\)) = ~INR 1.3 lakh crore"
   },
   {
     "objectID": "posts/natural-resource-production/index.html#natural-gas",
     "href": "posts/natural-resource-production/index.html#natural-gas",
     "title": "India’s natural resource production - interim estimate",
     "section": "3 Natural gas",
-    "text": "3 Natural gas\nProduction value: Rs. 23,000 crores (2019)\nProduction per day = ~90 Million SCM (source: Ministry of Petroleum & Natural Gas)\nAverage natural gas price in 2021 = US$ 2.56 per MMBtu (source) [Note: the price at which our companies sell might be different from Henry Hub, so this figure might not be accurate.]\nProduction value = (90,000,000 SCM/day)(365 days/year)(0.039 MMBtu/SCM)(US$ 2.56/MMBtu)(INR 70.4/US$) = ~INR 23,000 crores"
+    "text": "3 Natural gas\nProduction value: Rs. 23,000 crores (2019)\nProduction per day = ~90 Million SCM (source: Ministry of Petroleum & Natural Gas)\nAverage natural gas price in 2021 = US$ 2.56 per MMBtu (source) [Note: the price at which our companies sell might be different from Henry Hub, so this figure might not be accurate.]\nProduction value = (90,000,000 SCM/day)x(365 days/year)x(0.039 MMBtu/SCM)x(US$ 2.56/MMBtu)x(INR 70.4/US$) = ~INR 23,000 crores"
   },
   {
     "objectID": "posts/natural-resource-production/index.html#coal",
