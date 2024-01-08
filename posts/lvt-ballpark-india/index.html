@@ -322,13 +322,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="reasonable-estimate-for-tax-rates" class="level3" data-number="2.4">
 <h3 data-number="2.4" class="anchored" data-anchor-id="reasonable-estimate-for-tax-rates"><span class="header-section-number">2.4</span> Reasonable estimate for tax rates</h3>
-<p>The LVT rate can’t exceed the existing capitalization (cap) rates. I think it’s reasonable to assume a 2-3% cap rate for residential, 4-5% for industrial and 6-8% for commercial properties. Even though commercial and industrial land constitute a small percentage of the total land area, they’ll take a larger share of the land value pie. I think it’s reasonable to assume a weighted average cap rate of 4%.</p>
+<p>The LVT rate can’t exceed the existing <a href="https://en.wikipedia.org/wiki/Capitalization_rate">capitalization (cap) rates</a>. I think it’s reasonable to assume a 2-3% cap rate for residential, 4-5% for industrial and 6-8% for commercial properties. Even though commercial and industrial land constitute a small percentage of the total land area, they’ll take a larger share of the land value pie. I think it’s reasonable to assume a weighted average cap rate of 4%.</p>
 <p>Note that practically, during implementation, the government might tax properties at different rates based on different cap rates based on land-use and area, ideally based on up-to-date market surveys but we’re just taking a reasonable cap rate that can be multiplied with total land value to arrive at an estimate for the land rent tax base.</p>
 </section>
 <section id="urban-lvt-revenue-estimate" class="level3" data-number="2.5">
 <h3 data-number="2.5" class="anchored" data-anchor-id="urban-lvt-revenue-estimate"><span class="header-section-number">2.5</span> Urban LVT revenue estimate</h3>
 <p>An 80% tax rate, to account for errors in land valuation, on land rents, i.e.&nbsp;an LVT of 80% of cap rate, would raise 80% x 4% x 1 x GDP, i.e.&nbsp;3.2% of GDP.</p>
-<p>Estimates for other countries range from 10-15% of GDP and I think we can also raise that much–it’s just that our land value estimate was such a gross underestimate that we’re getting a tax revenue estimate that is 3-5 times lower than theirs. To be at parity with them, we would just need a 2 times jump from the correct estimation of circle rate and a mere 2 times jump from not using the lowest circle rate for all land. I think that’s reasonable.</p>
+<p>Estimates for other countries (based on the LVT estimates cited before also also the McKinsey report if you assume similar cap rates) range from 10-15% of GDP and I think we can also raise that much–it’s just that our land value estimate was such a gross underestimate that we’re getting a tax revenue estimate that is 3-5 times lower than theirs. To be at parity with them, we would just need a 2 times jump from the correct estimation of circle rate and a mere 2 times jump coming from not using the lowest circle rate for all land. I think that’s reasonable. For now, I’ll only assume a 2 times jump coming from not using the lowest circle rate since it’ll still be close to the second lowest and lower than the third lowest circle rate–it’s reasonable to assume that weighted-average of land values per unit area would be at least this much. This brings our estimate for land value at 2 times GDP and LVT from urban land at around 6.4% of GDP.</p>
 </section>
 </section>
 <section id="natural-resources" class="level2" data-number="3">
@@ -479,9 +479,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>World Bank’s estimate for total value of cropland and pastureland for 2018 was ~USD 2,900 per capita. This would make it twice of what our GDP was in 2018 (current prices USD).</p>
-<p>Note that it further confirms that the urban land value figure I provided is a gross underestimate. Even though agriculture is 15% of our GDP, it seems to contribute more to land values than urban land! That’s obviously not true and I think urban land values are much higher than the estimate I provided.</p>
-<p>Given that the Indian government shies away from <em>directly</em> taxing income from agriculture (even though they tax farmers heavily <a href="https://twitter.com/vinamrsachdeva/status/1696855444722180297">implicitly</a>), it’s unlikely that they’ll start taxing agricultural land directly. They should start by providing a standard deduction to all–that way, it can be electorally feasible. For this reasons, I’ll assume that only 50% of the agricultural land in terms of value is taxed (this will ensure that most farmers won’t be taxed), which brings it to 1 times GDP.</p>
+<p>World Bank’s estimate for total value of cropland and pastureland for 2018 was ~USD 2,070 per capita. This would make it about as large as our GDP in 2018 (current prices USD).</p>
+<p>Note that it further confirms that the urban land value figure I provided is a gross underestimate. Even though agriculture is 15% of our GDP, it seems to contribute about as much to land values than urban land! That’s obviously not true and I think urban land values are much higher than the estimate I provided.</p>
 <p>At an 80% tax rate and a 4% cap rate, it will be 3.2% of GDP.</p>
 </section>
 <section id="total-lvt-revenue" class="level2" data-number="5">
@@ -489,61 +488,43 @@ ul.task-list li input[type="checkbox"] {
 <p>Based on the assumptions above, here are the estimates for each land classification:</p>
 <table class="table">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 17%">
+<col style="width: 33%">
+<col style="width: 23%">
 <col style="width: 7%">
-<col style="width: 16%">
-<col style="width: 20%">
-<col style="width: 14%">
-<col style="width: 11%">
+<col style="width: 35%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Taxable land</th>
-<th>Raw Base (as a % of GDP)</th>
+<th>Category</th>
+<th>Base (% of GDP)</th>
 <th>Rate</th>
 <th>Revenue (as a % of GDP)</th>
-<th>Adjusted Base (as a % of GDP)</th>
-<th>Reason for adjustment</th>
-<th>Adjusted Revenue</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Urban land</td>
-<td>100%</td>
-<td>3.2%</td>
-<td>3.2%</td>
 <td>200%</td>
-<td>100% is a gross underestimate based on the methodology and also based on the agricultural land values</td>
-<td>6.4%</td>
+<td>3.20%</td>
+<td>6.40%</td>
 </tr>
 <tr class="even">
 <td>Natural resource rents</td>
 <td>2%</td>
 <td>80%</td>
-<td>1.6%</td>
-<td>1.6%</td>
-<td></td>
-<td>1.6%</td>
+<td>1.60%</td>
 </tr>
 <tr class="odd">
 <td>Agricultural land</td>
-<td>200%</td>
-<td>3.2%</td>
-<td>6.4%</td>
 <td>100%</td>
-<td>Maybe not electorally feasible to tax all agricultural land, so maybe only tax above a limit such that 50% of total value is taxed</td>
-<td>3.2%</td>
+<td>3.20%</td>
+<td>3.20%</td>
 </tr>
 <tr class="even">
 <td><strong>Total</strong></td>
-<td><strong>302%</strong></td>
 <td></td>
-<td><strong>11.2%</strong></td>
-<td><strong>302%</strong></td>
 <td></td>
-<td><strong>11.2%</strong></td>
+<td><strong>11.20%</strong></td>
 </tr>
 </tbody>
 </table>
